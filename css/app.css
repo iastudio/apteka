@@ -1464,24 +1464,54 @@ footer .contacts:last-child, footer .copy:last-child {
 footer .contacts {
   font-size: 12px;
   color: #666666;
+  height: 110px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_footer\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_footer\.scss}line{font-family:\0000312}}
+footer .contacts.border {
+  border-right: 1px solid #E9E8E8;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_footer\.scss}line{font-family:\0000315}}
 footer .contacts h5 {
   margin-bottom: 18px;
   font-weight: normal;
   font-size: 14px;
   color: #000;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_footer\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_footer\.scss}line{font-family:\0000321}}
 footer .contacts p {
   margin-bottom: 8px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_footer\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_footer\.scss}line{font-family:\0000325}}
+footer .copy {
+  font-size: 12px;
+  color: #232020;
+  line-height: 1.2;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_footer\.scss}line{font-family:\0000329}}
+footer .copy a, footer .copy a:link, footer .copy a:visited {
+  color: #232020;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_footer\.scss}line{font-family:\0000331}}
+footer .copy a:hover, footer .copy a:link:hover, footer .copy a:visited:hover {
+  color: #3e3838;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_footer\.scss}line{font-family:\0000335}}
+footer .copy .icon-iastudio {
+  float: left;
+  margin-right: 6px;
+  margin-top: 3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_footer\.scss}line{font-family:\0000340}}
+footer .copy .copyright {
+  font-size: 14px;
+  margin-top: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_footer\.scss}line{font-family:\0000344}}
 footer .copy .footer__social {
   margin: 0;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_footer\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_footer\.scss}line{font-family:\0000345}}
 footer .copy .footer__social .b-share__handle {
   padding: 0 5px 0 0 !important;
   opacity: 0.8;
@@ -1492,7 +1522,7 @@ footer .copy .footer__social .b-share__handle {
   -webkit-transition-timing-function: ease-in;
   transition-timing-function: ease-in;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_footer\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_footer\.scss}line{font-family:\0000351}}
 footer .copy .footer__social .b-share__handle:hover {
   opacity: 1;
 }
