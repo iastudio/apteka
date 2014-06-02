@@ -86,20 +86,53 @@ main {
 
 article {
 	@include col(7/12, $offset: 1/12);
+}
 
-	.item {
-		margin-bottom: 28px;
-		h5 {
-			font-family: "Georgia";
-			font-size: 18px;
-			font-style: italic;
-			font-weight: normal;
-			margin-bottom: 16px;
+.item {
+	margin-bottom: 28px;
+	overflow: hidden;
+	.item__image {
+		@include col(3/8);
+		// width: 135px; height: auto;
+        border: 3px solid #e0e0e0;
+        @include box-shadow(0 5px 10px -4px rgba(0,1,0,.3));
+        position: relative;
+        img {
+        	width: 100%;
+        }
+        .ribbon-wrapper {
+			.ribbon {
+				&:before, &:after {
+					display: none;
+				}
+			}
 		}
-		p {
-			font-size: 14px;
-			line-height: 1.5;
-			margin-bottom: 16px;
+	}
+	.item__content {
+		@include col(5/8);
+	}
+	a.item__title h5 {
+		font-family: "Georgia";
+		font-size: 18px;
+		font-style: italic;
+		font-weight: normal;
+		margin-bottom: 16px;
+		color: #0099e1;
+	}
+	p {
+		font-size: 14px;
+		line-height: 1.5;
+		margin-bottom: 16px;
+	}
+	.item__views {
+		color: #999999;
+		font-size: 10px;
+		height: 30px;
+		line-height: 30px;
+		margin-left: 20px;
+		display: inline-block;
+		.fa-eye {
+			margin-right: 6px;
 		}
 	}
 }
