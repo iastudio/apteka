@@ -1,0 +1,11 @@
+header.header
+	.header__topbar
+		.container
+			a.topbar__logo(href="/") Cохраняем традиции,<br>ценим доверие
+			nav
+				ul
+					- each item, i in navItems
+						if (active == (i + 1))
+							li.active: a(href='#') #{item}
+						else
+							li: a(href='#') #{item}

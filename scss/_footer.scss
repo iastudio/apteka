@@ -1,0 +1,37 @@
+footer {
+	@include center(960px);
+	padding: 30px 0;
+
+	.contacts, .copy {
+		@include col(3/12);
+	}
+	.contacts {
+		font-size: 12px;
+		color: #666666;
+		h5 {
+			margin-bottom: 18px;
+			font-weight: normal;
+			font-size: 14px;
+			color: #000;
+		}
+		p {
+			margin-bottom: 8px;
+		}
+	}
+	.copy {
+		.footer__social {
+			.b-share__handle {
+				padding: 0 5px 0 0 !important;
+				opacity: 0.8;
+				@include transition-property(all);
+				@include transition-duration(.1s);
+				@include transition-timing-function(ease-in);
+				&:hover {
+					opacity: 1;
+				}
+			}
+			margin: 0;
+			margin-bottom: 10px;
+		}
+	}
+}

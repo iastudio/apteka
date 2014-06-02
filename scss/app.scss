@@ -27,6 +27,7 @@
 // Misc
 @import "forms";
 @import "lightbox";
+@import "slider";
 
 // Elements
 @import "header";
@@ -43,6 +44,8 @@ body {
 	background: $bg-color;
 	line-height: 150%;
 	font-size: $text-size;
+	min-width: 960px;
+	color: #333;
 }
 
 a[href^=tel]{
@@ -92,9 +95,10 @@ a, input, textarea, .btn {
 }
 
 a, a:link, a:visited {
-	color: #000;
+	color: #0099e1;
+	text-decoration: underline;
 	&:hover {
-		color: lighten(#000, 20%);
+		color: lighten(#0099e1, 10%);
 	}
 }
 
@@ -109,6 +113,7 @@ a, a:link, a:visited {
 }
 
 .container {
+	@include center(960px);
 	position: relative;
 	z-index: 1;
 }

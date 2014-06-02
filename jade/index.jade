@@ -8,13 +8,49 @@ html(lang='ru').no-js
     | <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
   body
     .wrapper
-      .wrapper__1280
-        include includes/top-bar
-        include includes/header
-        include includes/slider
-        //- begin main
-        .main
-          //- begin container
-          .container
-        include includes/footer
+      include includes/header
+      include includes/slider
+      .container.content
+        aside.sidebar
+          h2 Только у нас
+          ul
+            li: a(href="#") Эксклюзивные препараты
+            li: a(href="#") Специализация в области дерматологии
+            li: a(href="#") Самый широкий выбор лечебной косметики
+            li: a(href="#") Лечебная косметика для малышей
+            li: a(href="#") Профессиональные консультации
+            li: a(href="#") Предвартельный заказ
+            li: a(href="#") Ароматерапия
+            li: a(href="#") Лечебные продукты
+        article
+          h1 Твой мир здоровья и красоты
+          .item
+            a.item__title(href="#")
+              h5 Эликсир совершенства
+            p Самые знаменитые секреты красоты и здоровья объединяются единым термином «ароматерапия» и являются эффективным и изысканным средством решения различных косметических проблем. Методики же применения ароматов разнообразны, как жизнь:
+            a.btn(href="#") Читать полностью
+          .item
+            a.item__title(href="#")
+              h5 Диета которая нравится
+            p Если Вы устали бороться с лишним весом и хотите достичь гармонии души и тела, мы поможем Вам похудеть правильно. Наша диета для похудения не вызывает ни малейшего дискомфорта, Вы продолжаете есть любимую пищу, ориентируясь на консультации диетолога.
+            a.btn(href="#") Читать полностью
+      footer
+        .contacts
+          h5 Контакты во Владивостоке
+          p
+            |г. Владивосток, Океанский пр-т, 50<br>Тел 242-85-90, 242-78-35
+          p
+            |г. Владивосток, ул. Русская, 9 «Б»<br>тел. 246-71-59, 246-71-39
+        .contacts
+          h5 &nbsp;
+          p
+            |г. Владивосток, ул. Черемуховая, 15<br>тел. 294-81-56, 294-81-53
+        .contacts
+          h5 Контакты в Большом Камне
+          p
+            |Адрес: ул Гагарина 17<br>Тел: +7 (42335) 5-62-09
+        .copy
+          .footer__social.yashare-auto-init(data-yasharel10n='ru', data-yashareType="none", data-yasharequickservices='vkontakte,facebook,twitter,odnoklassniki,moimir')
+          |Создание сайта — студия «Интерактив»
+      include includes/footer
     include includes/tail

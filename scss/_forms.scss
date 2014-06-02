@@ -1,0 +1,91 @@
+.form-preloader {
+	color: #000;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	position: absolute;
+	z-index: 1;
+	opacity: 0.8;
+	top: 0;
+	left: 0;
+	text-align:center;
+	font-weight: bold;
+	border-radius: 10px;
+	box-sizing: border-box;
+	//@include box-shadow(0 5px 10px 0 rgba(0,0,0,0.3));
+
+	div {
+		width:200px;
+		height: 100px;
+		margin:auto;
+
+		.fa {
+			font-size: 50px;
+			color: #53820D;
+			opacity: 0.9;
+		}
+	}
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="week"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea {
+	-webkit-appearance: none;
+	background-color: #fff;
+	width: 100%;
+	height: 42px;
+	margin: 0 0 18px 0;
+	padding: 8px;
+	border: 1px solid #76746c;
+	@include border-radius(5px);
+	@include background-clip(padding-box);
+	@include box-shadow(inset 0 2px 2px rgba(4,5,5,.07));
+	color: #000;
+	background-color: #fff;
+	display: block;
+	font-size: 14px;
+	font-style: italic;
+}
+
+button, .btn, input[type="submit"] {
+	cursor: pointer;
+	min-width: 100px;
+	
+	height: 30px;
+	line-height: 30px;
+
+	margin-bottom: 16px;
+	padding: 0 11px;
+
+	position: relative;
+	text-decoration: none !important;
+	text-align: center;
+	display: inline-block;
+	
+	color: #656565 !important;
+	font-size: 12px;
+	@include text-shadow(0 1px 0 #fff);
+
+	background-color: #e9e9e9;
+	@include box-shadow(0 0 0 1px #dcdcdc, inset 0 0 5px #fff);
+	@include background-image(linear-gradient(to bottom, #e9e9e9 0%, #f3f3f3 100%));
+
+	&:hover {
+		background-color: #f3f3f3;
+		@include background-image(linear-gradient(to bottom, #f3f3f3 0%, #e9e9e9 100%));
+		&:active {
+			top: 2px;
+		}
+	}
+}

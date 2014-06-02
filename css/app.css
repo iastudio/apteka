@@ -331,6 +331,139 @@ figure {
   align($direction: both)
   cf()
 */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_else\.scss}line{font-family:\000031}}
+.content {
+  margin-top: 60px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_else\.scss}line{font-family:\000034}}
+.content h1 {
+  background-color: #af1d27;
+  display: inline-block;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  color: #fff;
+  font-family: "Georgia";
+  font-size: 24px;
+  font-style: italic;
+  margin-bottom: 24px;
+  padding: 10px 15px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_else\.scss}line{font-family:\0000317}}
+article {
+  *zoom: 1;
+  float: left;
+  display: inline;
+  clear: none;
+  text-align: inherit;
+  padding-left: 0;
+  padding-right: 0;
+  width: 57.08333%;
+  margin-left: 8.58333%;
+  margin-right: 3%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/jeet\/_grid\.scss}line{font-family:\00003197}}
+article:before, article:after {
+  content: '';
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/jeet\/_grid\.scss}line{font-family:\00003201}}
+article:after {
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/jeet\/_grid\.scss}line{font-family:\0000349}}
+article:last-child {
+  margin-right: 0%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_else\.scss}line{font-family:\0000320}}
+article .item {
+  margin-bottom: 28px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_else\.scss}line{font-family:\0000322}}
+article .item h5 {
+  font-family: "Georgia";
+  font-size: 18px;
+  font-style: italic;
+  font-weight: normal;
+  margin-bottom: 16px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_else\.scss}line{font-family:\0000329}}
+article .item p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_else\.scss}line{font-family:\0000337}}
+.sidebar {
+  *zoom: 1;
+  float: left;
+  display: inline;
+  clear: none;
+  text-align: inherit;
+  padding-left: 0;
+  padding-right: 0;
+  width: 31.33333%;
+  margin-left: 0%;
+  margin-right: 3%;
+  padding: 35px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-background-clip: padding;
+  background-clip: padding-box;
+  background-color: #f8f8f8;
+  -webkit-box-shadow: inset 0 0 24px rgba(223, 227, 227, 0.75);
+  box-shadow: inset 0 0 24px rgba(223, 227, 227, 0.75);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/jeet\/_grid\.scss}line{font-family:\00003197}}
+.sidebar:before, .sidebar:after {
+  content: '';
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/jeet\/_grid\.scss}line{font-family:\00003201}}
+.sidebar:after {
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/jeet\/_grid\.scss}line{font-family:\0000349}}
+.sidebar:last-child {
+  margin-right: 0%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_else\.scss}line{font-family:\0000345}}
+.sidebar h2 {
+  color: #000;
+  font-family: "Georgia";
+  font-size: 24px;
+  font-style: italic;
+  margin-bottom: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_else\.scss}line{font-family:\0000354}}
+.sidebar ul li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  padding-left: 10px;
+  line-height: 1;
+  margin-bottom: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_else\.scss}line{font-family:\0000360}}
+.sidebar ul li a {
+  font-size: 14px;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_else\.scss}line{font-family:\0000364}}
+.sidebar ul li a:before {
+  display: block;
+  position: absolute;
+  content: '';
+  left: -10px;
+  top: 6px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 2.5px 0 2.5px 3px;
+  border-color: transparent transparent transparent #9d0037;
+}
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_ui\.scss}line{font-family:\000032}}
 .ui-helper-hidden {
   display: none;
@@ -658,6 +791,110 @@ figure {
   color: #222222;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_forms\.scss}line{font-family:\000031}}
+.form-preloader {
+  color: #000;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  position: absolute;
+  z-index: 1;
+  opacity: 0.8;
+  top: 0;
+  left: 0;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_forms\.scss}line{font-family:\0000317}}
+.form-preloader div {
+  width: 200px;
+  height: 100px;
+  margin: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_forms\.scss}line{font-family:\0000322}}
+.form-preloader div .fa {
+  font-size: 50px;
+  color: #53820D;
+  opacity: 0.9;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_forms\.scss}line{font-family:\0000330}}
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="week"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea {
+  -webkit-appearance: none;
+  background-color: #fff;
+  width: 100%;
+  height: 42px;
+  margin: 0 0 18px 0;
+  padding: 8px;
+  border: 1px solid #76746c;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-background-clip: padding;
+  background-clip: padding-box;
+  -webkit-box-shadow: inset 0 2px 2px rgba(4, 5, 5, 0.07);
+  box-shadow: inset 0 2px 2px rgba(4, 5, 5, 0.07);
+  color: #000;
+  background-color: #fff;
+  display: block;
+  font-size: 14px;
+  font-style: italic;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_forms\.scss}line{font-family:\0000361}}
+button, .btn, input[type="submit"] {
+  cursor: pointer;
+  min-width: 100px;
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 16px;
+  padding: 0 11px;
+  position: relative;
+  text-decoration: none !important;
+  text-align: center;
+  display: inline-block;
+  color: #656565 !important;
+  font-size: 12px;
+  text-shadow: 0 1px 0 white;
+  background-color: #e9e9e9;
+  -webkit-box-shadow: 0 0 0 1px gainsboro, inset 0 0 5px white;
+  box-shadow: 0 0 0 1px gainsboro, inset 0 0 5px white;
+  background-image: -webkit-gradient(linear, to bottom, to top, color-stop(0%, #e9e9e9), color-stop(100%, #f3f3f3));
+  background-image: -webkit-linear-gradient(to bottom, #e9e9e9 0%, #f3f3f3 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e9e9e9), to(#f3f3f3));
+  background-image: -webkit-linear-gradient(top, #e9e9e9 0%, #f3f3f3 100%);
+  background-image: linear-gradient(to bottom, #e9e9e9 0%, #f3f3f3 100%);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_forms\.scss}line{font-family:\0000384}}
+button:hover, .btn:hover, input[type="submit"]:hover {
+  background-color: #f3f3f3;
+  background-image: -webkit-gradient(linear, to bottom, to top, color-stop(0%, #f3f3f3), color-stop(100%, #e9e9e9));
+  background-image: -webkit-linear-gradient(to bottom, #f3f3f3 0%, #e9e9e9 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f3f3f3), to(#e9e9e9));
+  background-image: -webkit-linear-gradient(top, #f3f3f3 0%, #e9e9e9 100%);
+  background-image: linear-gradient(to bottom, #f3f3f3 0%, #e9e9e9 100%);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_forms\.scss}line{font-family:\0000387}}
+button:hover:active, .btn:hover:active, input[type="submit"]:hover:active {
+  top: 2px;
+}
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_lightbox\.scss}line{font-family:\0000339}}
 body:after {
   content: url(../i/prev.png) url(../i/next.png);
@@ -895,98 +1132,484 @@ body:after {
   opacity: 1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/app\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_slider\.scss}line{font-family:\000031}}
+.slider {
+  background: url("../i/header-bg.png") left top repeat;
+  padding-bottom: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_slider\.scss}line{font-family:\000034}}
+.slider .slider__slides {
+  *zoom: 1;
+  width: auto;
+  max-width: 1410px;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/jeet\/_grid\.scss}line{font-family:\00003197}}
+.slider .slider__slides:before, .slider .slider__slides:after {
+  content: '';
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/jeet\/_grid\.scss}line{font-family:\00003201}}
+.slider .slider__slides:after {
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_slider\.scss}line{font-family:\000038}}
+.slider .slider__slides ul {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_slider\.scss}line{font-family:\0000311}}
+.slider .slider__slides ul li.slider__item {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: left;
+  width: 100%;
+  height: auto;
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_slider\.scss}line{font-family:\0000319}}
+.slider .slider__slides ul li.slider__item img {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_slider\.scss}line{font-family:\0000322}}
+.slider .slider__slides ul li.slider__item h1 {
+  position: absolute;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 36px;
+  left: 135px;
+  bottom: 60px;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_slider\.scss}line{font-family:\0000331}}
+.slider .slider__slides ul li.slider__item .slider__slogan {
+  position: absolute;
+  bottom: -30px;
+  left: 130px;
+  width: 450px;
+  height: 200px;
+  background-color: #B21D28;
+  -webkit-box-shadow: 0 0 0 20px rgba(43, 19, 14, 0.5);
+  box-shadow: 0 0 0 20px rgba(43, 19, 14, 0.5);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_slider\.scss}line{font-family:\0000337}}
+.slider .slider__slides ul li.slider__item .slider__slogan h2 {
+  position: relative;
+  margin: 0;
+  text-transform: uppercase;
+  color: #FFF;
+  font-size: 36px;
+  font-weight: bold;
+  padding: 40px 30px 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_slider\.scss}line{font-family:\0000348}}
+.slider .slider__slides ul li.slider__item .slider__slogan h2:after {
+  display: block;
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 4px;
+  background: url("../i/wave.png") left top repeat-x;
+  background: url("../i/wave.svg") left top repeat-x;
+  bottom: 0;
+  left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_slider\.scss}line{font-family:\0000359}}
+.slider .slider__slides ul li.slider__item .slider__slogan p {
+  margin: 0;
+  padding: 15px 30px 0;
+  color: #FFF;
+  font-size: 14px;
+  line-height: 1.4;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_slider\.scss}line{font-family:\0000367}}
+.slider .slider__slides ul li.slider__item.active {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_slider\.scss}line{font-family:\0000373}}
+.slider .slider__slides a.slider__nav {
+  position: absolute;
+  top: 50%;
+  margin-top: -25px;
+  z-index: 999;
+  display: block;
+  width: 50px;
+  height: 50px;
+  color: #df000b;
+  text-decoration: none;
+  font-size: 30px;
+  line-height: 46px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 100px;
+  border: 2px solid #df000b;
+  -webkit-box-shadow: 0 0 0 10px white;
+  box-shadow: 0 0 0 10px white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_slider\.scss}line{font-family:\0000391}}
+.slider .slider__slides a.slider__nav:hover {
+  opacity: 0.9;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_slider\.scss}line{font-family:\0000396}}
+.slider .slider__slides a.slider__nav.slider__nav--prev {
+  left: 5px;
+  text-indent: -2px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_slider\.scss}line{font-family:\00003101}}
+.slider .slider__slides a.slider__nav.slider__nav--next {
+  right: 5px;
+  text-indent: 2px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_slider\.scss}line{font-family:\00003108}}
+.slider .slider__dots {
+  margin-top: 15px;
+  height: 20px;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_slider\.scss}line{font-family:\00003112}}
+.slider .slider__dots .slider__dot {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  margin-right: 14px;
+  border: 2px solid #fff;
+  background-color: #fff;
+  -webkit-box-shadow: inset 0 2px 2px rgba(4, 5, 5, 0.14);
+  box-shadow: inset 0 2px 2px rgba(4, 5, 5, 0.14);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_slider\.scss}line{font-family:\00003120}}
+.slider .slider__dots .slider__dot.active {
+  background-color: transparent;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_header\.scss}line{font-family:\000031}}
+.header {
+  background: url("../i/header-bg.png") left top repeat;
+  padding: 25px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_header\.scss}line{font-family:\000036}}
+.header .header__topbar {
+  background-color: #fff;
+  height: 100px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.04);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_header\.scss}line{font-family:\0000311}}
+.header .header__topbar .topbar__logo {
+  *zoom: 1;
+  float: left;
+  display: inline;
+  clear: none;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: inherit;
+  width: 41.66667%;
+  margin-left: 0%;
+  margin-right: 0%;
+  display: block;
+  height: 64px;
+  margin-top: 18px;
+  background-image: url(../i/logo.png);
+  background-image: url(../i/logo.svg), none;
+  background-repeat: no-repeat;
+  position: relative;
+  color: #656565;
+  font-size: 12px;
+  text-decoration: none;
+  line-height: 1;
+  padding-left: 225px;
+  padding-top: 22px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/jeet\/_grid\.scss}line{font-family:\00003197}}
+.header .header__topbar .topbar__logo:before, .header .header__topbar .topbar__logo:after {
+  content: '';
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/jeet\/_grid\.scss}line{font-family:\00003201}}
+.header .header__topbar .topbar__logo:after {
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_header\.scss}line{font-family:\0000328}}
+.header .header__topbar .topbar__logo:after {
+  display: block;
+  position: absolute;
+  content: '';
+  background-image: url(../i/divider.png);
+  background-image: url(../i/divider.svg), none;
+  background-repeat: no-repeat;
+  width: 21px;
+  height: 60px;
+  position: absolute;
+  left: 183px;
+  top: 2px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_header\.scss}line{font-family:\0000342}}
+.header nav {
+  *zoom: 1;
+  float: left;
+  display: inline;
+  clear: none;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: inherit;
+  width: 58.33333%;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: 37px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/jeet\/_grid\.scss}line{font-family:\00003197}}
+.header nav:before, .header nav:after {
+  content: '';
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/jeet\/_grid\.scss}line{font-family:\00003201}}
+.header nav:after {
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_header\.scss}line{font-family:\0000346}}
+.header nav ul li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: left;
+  margin-right: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_header\.scss}line{font-family:\0000352}}
+.header nav ul li:last-child {
+  margin-right: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_header\.scss}line{font-family:\0000356}}
+.header nav ul li a {
+  text-decoration: none;
+  color: #b21d28;
+  font-size: 14px;
+  padding: 10px 15px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-background-clip: padding;
+  background-clip: padding-box;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  -webkit-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_header\.scss}line{font-family:\0000369}}
+.header nav ul li.active a, .header nav ul li:hover a {
+  color: #FFF;
+  background-color: #b11d27;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_footer\.scss}line{font-family:\000031}}
+footer {
+  *zoom: 1;
+  width: auto;
+  max-width: 960px;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+  padding: 30px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/jeet\/_grid\.scss}line{font-family:\00003197}}
+footer:before, footer:after {
+  content: '';
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/jeet\/_grid\.scss}line{font-family:\00003201}}
+footer:after {
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_footer\.scss}line{font-family:\000035}}
+footer .contacts, footer .copy {
+  *zoom: 1;
+  float: left;
+  display: inline;
+  clear: none;
+  text-align: inherit;
+  padding-left: 0;
+  padding-right: 0;
+  width: 22.75%;
+  margin-left: 0%;
+  margin-right: 3%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/jeet\/_grid\.scss}line{font-family:\00003197}}
+footer .contacts:before, footer .contacts:after, footer .copy:before, footer .copy:after {
+  content: '';
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/jeet\/_grid\.scss}line{font-family:\00003201}}
+footer .contacts:after, footer .copy:after {
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/jeet\/_grid\.scss}line{font-family:\0000349}}
+footer .contacts:last-child, footer .copy:last-child {
+  margin-right: 0%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_footer\.scss}line{font-family:\000038}}
+footer .contacts {
+  font-size: 12px;
+  color: #666666;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_footer\.scss}line{font-family:\0000311}}
+footer .contacts h5 {
+  margin-bottom: 18px;
+  font-weight: normal;
+  font-size: 14px;
+  color: #000;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_footer\.scss}line{font-family:\0000317}}
+footer .contacts p {
+  margin-bottom: 8px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_footer\.scss}line{font-family:\0000322}}
+footer .copy .footer__social {
+  margin: 0;
+  margin-bottom: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_footer\.scss}line{font-family:\0000323}}
+footer .copy .footer__social .b-share__handle {
+  padding: 0 5px 0 0 !important;
+  opacity: 0.8;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  -webkit-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_footer\.scss}line{font-family:\0000329}}
+footer .copy .footer__social .b-share__handle:hover {
+  opacity: 1;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/app\.scss}line{font-family:\0000336}}
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/app\.scss}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/app\.scss}line{font-family:\0000342}}
 body {
   font-family: 'Kelson Sans', Helvetica, Arial, sans-serif;
-  background: #e3e3e3;
+  background: white;
   line-height: 150%;
-  font-size: 16px;
+  font-size: 14px;
+  min-width: 960px;
+  color: #333;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/app\.scss}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/app\.scss}line{font-family:\0000351}}
 a[href^=tel] {
   color: inherit;
   text-decoration: none;
 }
 
 @media screen and (max-device-width: 480px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/app\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/app\.scss}line{font-family:\0000357}}
   body {
     -webkit-text-size-adjust: none;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/app\.scss}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/app\.scss}line{font-family:\0000362}}
 #wrapper {
   overflow: hidden;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/app\.scss}line{font-family:\0000363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/app\.scss}line{font-family:\0000366}}
 h1, h2, h3, h4 {
   color: #000;
   font-weight: 200;
   margin-bottom: 30px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/app\.scss}line{font-family:\0000370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/app\.scss}line{font-family:\0000373}}
 h1 {
   font-size: 30px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/app\.scss}line{font-family:\0000374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/app\.scss}line{font-family:\0000377}}
 p {
   line-height: 120%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/app\.scss}line{font-family:\0000378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/app\.scss}line{font-family:\0000381}}
 strong {
   font-weight: bold;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/app\.scss}line{font-family:\0000382}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/app\.scss}line{font-family:\0000385}}
 .right {
   float: right !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/app\.scss}line{font-family:\0000386}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/app\.scss}line{font-family:\0000389}}
 .left {
   float: left !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/app\.scss}line{font-family:\0000390}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/app\.scss}line{font-family:\0000393}}
 a, input, textarea, .btn {
   outline: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/app\.scss}line{font-family:\0000394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/app\.scss}line{font-family:\0000397}}
 a, a:link, a:visited {
-  color: #000;
+  color: #0099e1;
+  text-decoration: underline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/app\.scss}line{font-family:\0000396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/app\.scss}line{font-family:\00003100}}
 a:hover, a:link:hover, a:visited:hover {
-  color: #333333;
+  color: #15b4ff;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/app\.scss}line{font-family:\00003101}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/app\.scss}line{font-family:\00003105}}
 .lbox {
   display: block;
   border: 9px solid #fff;
   -webkit-box-shadow: 1px 1px 0 0 #96c4ea;
   box-shadow: 1px 1px 0 0 #96c4ea;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/app\.scss}line{font-family:\00003106}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/app\.scss}line{font-family:\00003110}}
 .lbox:hover {
   opacity: 0.9;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/app\.scss}line{font-family:\00003111}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/app\.scss}line{font-family:\00003115}}
 .container {
+  *zoom: 1;
+  width: auto;
+  max-width: 960px;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
   position: relative;
   z-index: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/jeet\/_grid\.scss}line{font-family:\00003197}}
+.container:before, .container:after {
+  content: '';
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/jeet\/_grid\.scss}line{font-family:\00003201}}
+.container:after {
+  clear: both;
 }
