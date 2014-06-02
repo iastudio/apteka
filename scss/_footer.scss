@@ -1,6 +1,7 @@
 footer {
 	@include center(960px);
 	padding: 30px 0;
+	margin-top: 45px;
 
 	.contacts, .copy {
 		@include col(3/12);
