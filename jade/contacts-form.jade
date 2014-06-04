@@ -1,0 +1,40 @@
+- var active = 5
+- var pageName = 'Напишите нам'
+include includes/settings
+doctype html
+html(lang='ru').no-js
+  head
+    include includes/head
+  body
+    .wrapper
+      include includes/header
+      .container.content
+        aside.sidebar
+          h2 Контакты
+          ul
+            li: a(href="#") Наши аптеки
+            li.active: a(href="#") Напишите нам
+        main
+          h2 Напишите нам
+          .breadcrumbs
+            ul
+              li: a(href="#") Главная
+              li: a(href="#") Контакты
+          p Мы с радостью познакомимся с вами, ответим на вопросы, проконсультируем
+          form.contacts-form
+            fieldset
+              label Ваше имя
+              input(type="text")
+              br
+              label Телефон
+              input(type="tel")
+              br
+              label E-mail
+              input(type="email")
+              br
+              label Сообщение
+              textarea
+              br
+              input(type="submit", value="Отправить сообщение")
+      include includes/footer
+    include includes/tail

@@ -1,0 +1,54 @@
+- var active = 5
+- var pageName = 'Контакты'
+include includes/settings
+doctype html
+html(lang='ru').no-js
+  head
+    include includes/head
+  body
+    .wrapper
+      include includes/header
+      .container.content
+        aside.sidebar
+          h2 Контакты
+          ul
+            li.active: a(href="#") Наши аптеки
+            li: a(href="#") Напишите нам
+        main
+          h2 Наши аптеки
+          .breadcrumbs
+            ul
+              li: a(href="#") Главная
+              li: a(href="#") Контакты
+          p Коллектив Торговой сети насчитывает более 600 человек, которые состоят из единомышленников: провизоров, врачей, фармацевтов.
+          .row
+            h5 во Владивостоке
+            .col-1-2.cont-item
+              img(src="i/placeholders/3-1.jpg", width="135").wellimage
+              p Адрес: Владивосток, Океанский пр-т, 50Б остановка «Дальпресс»
+              a(href="#") схема проезда
+              p Режим работы: круглосуточно
+              p Тел: 242-85-90, 242-78-35
+            .col-1-2.cont-item
+              img(src="i/placeholders/3-2.jpg", width="135").wellimage
+              p Адрес: ул. Русская, 9 «Б» (р-н Автовокзала, здание Antenna building)
+              a(href="#") схема проезда
+              p Режим работы: с 8-00 до 23-00 часов
+              p Тел: 246-71-59, 246-71-39
+          .row
+            .col-1-2.cont-item
+              img(src="i/placeholders/3-3.jpg", width="135").wellimage
+              p Адрес: Владивосток, ул. Черемуховая, 15 (р-н Чуркин, т/ц «Черемушки»)
+              a(href="#") схема проезда
+              p Режим работы: с 9-00 до 22-00 часов
+              p Тел: 294-81-56, 294-81-53
+          .row
+            h5 в Большом камне
+            .col-1-2.cont-item
+              img(src="i/placeholders/3-4.jpg", width="135").wellimage
+              p Адрес: ул. Гагарина, 17
+              a(href="#") схема проезда
+              p Режим работы: с 8-00 до 20-00 часов
+              p Тел: 8-(42-335)5-62-09, 5-59-20
+      include includes/footer
+    include includes/tail

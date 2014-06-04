@@ -47,18 +47,24 @@ textarea {
 	height: 42px;
 	margin: 0 0 18px 0;
 	padding: 8px;
-	border: 1px solid #76746c;
-	@include border-radius(5px);
-	@include background-clip(padding-box);
-	@include box-shadow(inset 0 2px 2px rgba(4,5,5,.07));
-	color: #000;
+	border: 1px solid #bababa;
 	background-color: #fff;
+	@include box-shadow(inset 0 2px 4px rgba(157,157,157,.41));
+	color: #000;
 	display: block;
 	font-size: 14px;
-	font-style: italic;
+}
+
+label {
+	line-height: 42px;
+	width: 80px;
+	display: block;
+	float: left;
+	text-align: right;
 }
 
 button, .btn, input[type="submit"] {
+	border: none;
 	cursor: pointer;
 	min-width: 100px;
 	

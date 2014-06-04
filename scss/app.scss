@@ -75,6 +75,10 @@ h1 {
 	font-size: 30px;
 }
 
+h5 {
+	text-transform: uppercase;
+}
+
 p {
 	line-height: 120%;
 }
@@ -121,4 +125,16 @@ a, a:link, a:visited {
 	@include center(960px);
 	position: relative;
 	z-index: 1;
+}
+
+ul {
+	list-style-image: url('../i/li.png');
+	li {
+		margin-left: 16px;
+	}
+}
+
+blockquote {
+	padding-left: 22px;
+	border-left: 10px solid #A61B25;
 }
