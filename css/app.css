@@ -354,7 +354,7 @@ figure {
   text-align: inherit;
   padding-left: 0;
   padding-right: 0;
-  width: 31.33333%;
+  width: 27.9%;
   margin-left: 0%;
   margin-right: 3%;
   text-align: center;
@@ -376,11 +376,7 @@ figure {
 .service-items .service-item [class^="icon-"], .service-items .service-item [class*=" icon-"] {
   color: #bf3b18;
   font-size: 130px;
-  background-image: -webkit-gradient(linear, to bottom, to top, color-stop(0%, #d3351d), color-stop(100%, #f56f19));
-  background-image: -webkit-linear-gradient(to bottom, #d3351d 0%, #f56f19 100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#d3351d), to(#f56f19));
-  background-image: -webkit-linear-gradient(top, #d3351d 0%, #f56f19 100%);
-  background-image: linear-gradient(to bottom, #d3351d 0%, #f56f19 100%);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#d3351d), to(#f56f19));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -474,7 +470,7 @@ main {
   text-align: inherit;
   padding-left: 0;
   padding-right: 0;
-  width: 65.66667%;
+  width: 61.375%;
   margin-left: 0%;
   margin-right: 3%;
 }
@@ -501,7 +497,7 @@ article {
   text-align: inherit;
   padding-left: 0;
   padding-right: 0;
-  width: 57.08333%;
+  width: 53.65%;
   margin-left: 8.58333%;
   margin-right: 3%;
 }
@@ -537,7 +533,7 @@ article:last-child {
   text-align: inherit;
   padding-left: 0;
   padding-right: 0;
-  width: 35.625%;
+  width: 33.05%;
   margin-left: 0%;
   margin-right: 3%;
   border: 3px solid #e0e0e0;
@@ -575,7 +571,7 @@ article:last-child {
   text-align: inherit;
   padding-left: 0;
   padding-right: 0;
-  width: 61.375%;
+  width: 58.8%;
   margin-left: 0%;
   margin-right: 3%;
 }
@@ -757,7 +753,7 @@ article:last-child {
   text-align: inherit;
   padding-left: 0;
   padding-right: 0;
-  width: 31.33333%;
+  width: 27.9%;
   margin-left: 0%;
   margin-right: 3%;
 }
@@ -789,7 +785,7 @@ article:last-child {
   text-align: inherit;
   padding-left: 0;
   padding-right: 0;
-  width: 48.5%;
+  width: 43.35%;
   margin-left: 0%;
   margin-right: 3%;
 }
@@ -2211,7 +2207,7 @@ body:after {
   padding-left: 0;
   padding-right: 0;
   text-align: inherit;
-  width: 41.66667%;
+  width: 40%;
   margin-left: 0%;
   margin-right: 0%;
   display: block;
@@ -2219,6 +2215,9 @@ body:after {
   margin-top: 18px;
   background-image: url(../i/logo.png);
   background-image: url(../i/logo.svg), none;
+  -webkit-background-size: 149px;
+  background-size: 149px;
+  background-position: 0 0;
   background-repeat: no-repeat;
   position: relative;
   color: #656565;
@@ -2237,7 +2236,11 @@ body:after {
 .header .header__topbar .topbar__logo:after {
   clear: both;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_header\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_header\.scss}line{font-family:\0000330}}
+.header .header__topbar .topbar__logo.operaFix {
+  background-image: url(../i/logo.png) !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_header\.scss}line{font-family:\0000333}}
 .header .header__topbar .topbar__logo:after {
   display: block;
   position: absolute;
@@ -2251,7 +2254,7 @@ body:after {
   left: 183px;
   top: 2px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_header\.scss}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_header\.scss}line{font-family:\0000347}}
 .header nav {
   *zoom: 1;
   float: left;
@@ -2260,10 +2263,10 @@ body:after {
   padding-left: 0;
   padding-right: 0;
   text-align: inherit;
-  width: 58.33333%;
+  width: 60%;
   margin-left: 0%;
   margin-right: 0%;
-  margin-top: 37px;
+  margin-top: 40px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/jeet\/_grid\.scss}line{font-family:\00003197}}
 .header nav:before, .header nav:after {
@@ -2274,7 +2277,7 @@ body:after {
 .header nav:after {
   clear: both;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_header\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_header\.scss}line{font-family:\0000351}}
 .header nav ul li {
   margin: 0;
   padding: 0;
@@ -2282,11 +2285,11 @@ body:after {
   float: left;
   margin-right: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_header\.scss}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_header\.scss}line{font-family:\0000357}}
 .header nav ul li:last-child {
   margin-right: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_header\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_header\.scss}line{font-family:\0000361}}
 .header nav ul li a {
   text-decoration: none;
   color: #b21d28;
@@ -2303,7 +2306,7 @@ body:after {
   -webkit-transition-timing-function: ease-in;
   transition-timing-function: ease-in;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_header\.scss}line{font-family:\0000369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/apteka\/src\/scss\/_header\.scss}line{font-family:\0000374}}
 .header nav ul li.active a, .header nav ul li:hover a {
   color: #FFF;
   background-color: #b11d27;
@@ -2341,7 +2344,7 @@ footer .contacts, footer .copy {
   text-align: inherit;
   padding-left: 0;
   padding-right: 0;
-  width: 22.75%;
+  width: 21.89167%;
   margin-left: 0%;
   margin-right: 3%;
 }

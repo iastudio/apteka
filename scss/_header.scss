@@ -9,13 +9,15 @@
 		@include box-shadow(0 0 10px rgba(0,0,0,.04));
 
 		.topbar__logo {
-			@include span(5/12);
+			@include span(4.8/12);
 			display: block;
 			//width: 149px;
 			height: 64px;
 			margin-top: 18px;
 			background-image: url(../i/logo.png);
   			background-image: url(../i/logo.svg), none;
+  			background-size: 149px;
+  			background-position: 0 0;
   			background-repeat: no-repeat;
   			position: relative;
 
@@ -25,6 +27,9 @@
 			line-height: 1;
 			padding-left: 225px;
 			padding-top: 22px;
+			&.operaFix {
+				background-image: url(../i/logo.png) !important;
+			}
   			&:after {
   				display: block;
   				position: absolute;
@@ -40,8 +45,8 @@
 	}
 
 	nav {
-		@include span(7/12);
-		margin-top: 37px;
+		@include span(7.2/12);
+		margin-top: 40px;
 		ul {
 			li {
 				margin: 0; padding: 0;

@@ -4,7 +4,7 @@ footer {
 	margin-top: 45px;
 
 	.contacts, .copy {
-		@include col(3/12);
+		@include col(2.9/12);
 	}
 	.contacts {
 		font-size: 12px;
